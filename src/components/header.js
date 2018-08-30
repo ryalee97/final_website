@@ -2,8 +2,24 @@ import React from 'react'
 import Link from 'gatsby-link'
 
 const Header = () => (
-  <div>
-    <h1>Welcome</h1>
+  <div className="navi">
+    <ul>
+      <li>
+        <Link to="#about">About</Link>
+      </li>
+      <li>
+        <Link to="#projects">Projects</Link>
+      </li>
+      <li>
+        <Link to="#skills">Skills</Link>
+      </li>
+      <li>
+        <Link to="#services">Events</Link>
+      </li>
+      <li>
+        <Link to="#footer">Contact</Link>
+      </li>
+    </ul>
   </div>
 )
 

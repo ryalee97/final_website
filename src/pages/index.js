@@ -1,12 +1,20 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import Header from '../components/header.js'
+import Intro from '../components/intro.js'
+import Projects from '../components/projects.js'
+import Service from '../components/service.js'
+import Skills from '../components/skills.js'
+import Footer from '../components/footer.js'
 
 const IndexPage = () => (
   <div>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
+  	<Intro/>
+  	<Header/>
+  	<Projects/>
+  	<Skills/>
+  	<Service/>
+  	<Footer/>
   </div>
 )
 
